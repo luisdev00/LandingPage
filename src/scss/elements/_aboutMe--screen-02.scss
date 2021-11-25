@@ -1,0 +1,64 @@
+.container-aboutMe {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1366px;
+  height: 100vh;
+  background: #272727;
+  color: $ft;
+  padding: 50px 200px;
+
+  img {
+    width: 350px;
+    height: 450px;
+    border-top: 4px solid $firstcolor;
+    border-left: 5px solid $firstcolor;
+    object-fit: cover;
+    padding: 5px;
+  }
+  .content-aboutMe {
+    padding: 30px;
+    margin: 10px;
+    max-width: 100%;
+    width: 50%;
+
+    .whoami-p {
+      display: inline;
+      @include pm5;
+      color: $firstcolor;
+      border-left: 2px solid $firstcolor;
+    }
+
+    .whoami-h3 {
+      @include pm5;
+    }
+
+    .whoami-descripiton {
+      @include pm5;
+    }
+  }
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-evenly;
+    width: 100%;
+    max-width: 100%;
+
+    img {
+      border: none;
+      width: 70px;
+      height: 70px;
+      margin: 2px;
+    }
+  }
+}

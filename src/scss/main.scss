@@ -1,0 +1,15 @@
+//reset global, Variables
+@import "./settings/_normalize.scss";
+@import "./settings/_reset.scss";
+@import "./settings/_variables.scss";
+
+/// ----------> HOME <---------------------///
+// Block code, animation , funcions
+@import "./functionality/_mixins.scss";
+@import "./functionality/_keyframes.nav-main.scss";
+//	Layout
+@import "./elements/_home--screen-01.scss";
+@import "./elements/_aboutMe--screen-02.scss";
+// Buttons
+@import "./elements/components/_components.button.scss";
+

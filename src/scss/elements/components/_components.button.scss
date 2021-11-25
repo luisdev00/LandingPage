@@ -1,0 +1,24 @@
+.btn-enviar-main {
+  display: inline-block;
+  text-decoration: none;
+  color: $ftblack;
+  padding: 12px;
+  margin: 40px 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: $firstcolor;
+  transition: all 0.2s;
+}
+
+.btn-enviar-main:hover {
+  background: $secondcolor;
+  @include scale;
+}
+
+.btn-enviar-main:active {
+  color: $ftblack;
+  background: $firstcolor;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+// first button

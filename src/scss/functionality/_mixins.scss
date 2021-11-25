@@ -1,0 +1,15 @@
+
+@mixin logo {
+ height: 60px;
+ border-radius: 30% 10%;
+}
+
+@mixin scale {
+	transform: scale(1.05, 1.05);
+}
+
+@mixin pm5 {
+  padding: 5px;
+  margin: 5px;
+}
+

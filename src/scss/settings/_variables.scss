@@ -1,0 +1,26 @@
+// colors
+$bgcolor: #212121;
+$firstcolor: #00ffff;
+$secondcolor: #00b9cb;
+// Opacity nav
+$blackOp: rgb(33,33,33,.7);
+
+// fonts
+$ft: #f1f1f1;
+$ftblack: #090909;
+
+//fonsts
+$fontsrb: "Roboto", "sans-serif";
+$fontstitle: 45px;
+$fonts1: 38px;
+$navmain: 20px;
+$font-subtitle: 18px;
+
+* {
+  @include reset-mp;
+}
+
+body {
+  background: $bgcolor;
+  font-family: $fontsrb;
+}
